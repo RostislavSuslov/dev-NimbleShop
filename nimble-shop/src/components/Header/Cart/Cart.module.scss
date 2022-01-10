@@ -1,0 +1,30 @@
+.cart{
+    border-left: 1px solid #000;
+    border-right: 1px solid #000;
+    cursor: pointer;
+    position: relative;
+    &:hover{
+        .cartInfo{
+            display: block;
+        }
+    }
+}
+.iconCart{
+    img {
+        max-width: 72px;
+    }
+}
+
+.cartInfo{
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: darkgrey;
+    li {
+        display: flex;
+        div{
+            display: flex;
+        }
+    }
+}

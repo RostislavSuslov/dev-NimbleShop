@@ -1,0 +1,35 @@
+.logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: .2s;
+
+    p {
+        transition: .3s;
+        font-size: 24px;
+        line-height: 1;
+        font-weight: 700;
+        margin: 0;
+        position: relative;
+        right: 0;
+        color: #fff;
+    }
+
+    &:hover {
+        .siteLogo {
+            transform: rotate(90deg);
+        }
+
+        p {
+            color: #61dafb;
+            right: 10px;
+        }
+    }
+
+}
+
+.siteLogo {
+    transition: .2s;
+    width: 96px;
+    min-width: 48px;
+}
