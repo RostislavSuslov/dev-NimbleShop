@@ -6,7 +6,10 @@ const Cart =()=> {
     return (
         <div className={moduleCSS.cart}>
             <div className={moduleCSS.iconCart}>
-                <img src={imgCart} className='img-fluid'  alt="cart"/>   
+                <img src={imgCart} className='img-fluid'  alt="cart"/>
+                <div className={moduleCSS.cart__productCounter}>
+                     3
+                </div>
             </div>
             <div className={moduleCSS.cartInfo}>
                 <ol className={moduleCSS.cart__productList}>
@@ -35,9 +38,7 @@ const Cart =()=> {
                     </div>       
                     </li> 
                 </ol>
-                <div className={moduleCSS.cart__productCounter}>
-                    всего товаров: 3 
-                </div>
+
                 <div className={moduleCSS.cart__allPrice}>
                     <strike>500грн</strike>450грн
                 </div>

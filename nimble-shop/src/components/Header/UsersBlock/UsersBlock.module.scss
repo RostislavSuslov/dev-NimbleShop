@@ -1,0 +1,19 @@
+.usersBlock{
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #c8d0e7;
+  transition: all 0.5s ease;
+margin-left: auto;
+margin-right: 48px;
+}
+
+.iconUser{
+  width: 24px;
+}
