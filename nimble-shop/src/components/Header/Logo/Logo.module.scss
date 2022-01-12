@@ -11,7 +11,7 @@
         font-weight: 700;
         margin: 0;
         position: relative;
-        right: 0;
+        right: -10px;
         color: #61dafb;
     }
 
@@ -21,8 +21,7 @@
         }
 
         p {
-
-            right: 5px;
+            right: 0px;
         }
     }
 
@@ -30,6 +29,6 @@
 
 .siteLogo {
     transition: .2s;
-    width: 96px;
+    width: 68px;
     min-width: 48px;
 }

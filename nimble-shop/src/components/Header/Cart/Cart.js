@@ -1,12 +1,12 @@
 import React from 'react';
 import moduleCSS from './Cart.module.scss';
-import imgCart from '../../../icon-cart.svg';
 
+import imgCart from '../../../icon-cart.svg';
 const Cart =()=> {
     return (
         <div className={moduleCSS.cart}>
             <div className={moduleCSS.iconCart}>
-                <img src={imgCart} className='img-fluid'  alt="cart"/>
+                <img src={imgCart} className="img-fluid" alt="user"/>
                 <div className={moduleCSS.cart__productCounter}>
                      3
                 </div>
