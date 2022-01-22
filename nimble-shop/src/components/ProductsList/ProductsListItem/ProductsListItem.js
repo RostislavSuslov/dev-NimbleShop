@@ -9,7 +9,7 @@ const ProductsListItem = ({product} ) => {
         : product.price
 
     return (
-        <div className={moduleCSS.productsLayout + ' col-md-6'}>
+        <div className={moduleCSS.productsLayout + ' col-md-6 col-lg-4'}>
             <div className={moduleCSS.productThumb}>
                 <div className={moduleCSS.productThumb__img}>
                     <img src={product.src} className="img-fluid" alt=""/>
