@@ -12,6 +12,7 @@
     cursor: pointer;
     color: #c8d0e7;
     transition: all 0.5s ease;
+    margin-left: auto;
     &:hover{
         .cartInfo{
             display: block;
@@ -58,4 +59,8 @@
     background: #fbfbfb;
     z-index: 1;
     color: #000000;
+}
+
+.userData{
+    display: flex;
 }

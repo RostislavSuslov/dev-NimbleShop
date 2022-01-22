@@ -1,19 +1,55 @@
 .usersBlock {
-  width: 4rem;
-  height: 4rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #c8d0e7;
+  transition: all 0.5s ease;
+  margin: 0 48px;
+  padding: 15px 30px;
+  border-radius: 35px;
+
+
+}
+
+.userInfo {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 15px;
+  margin-left: 15px;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #ffffff;
+  border-radius: 7px;
+}
+
+.userName{
+  color:#61dafb;
+}
+
+.userAvatar {
   border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  width: 4rem;
+  min-width: 4rem;
+  height: 4rem;
   box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
   display: flex;
   justify-content: center;
   align-items: center;
   font-size: 2rem;
   cursor: pointer;
-  color: #c8d0e7;
+
+  font-weight:500;
+  color:#61dafb;
   transition: all 0.5s ease;
   margin-left: auto;
-  margin-right: 48px;
 }
 
-.iconUser {
-  width: 24px;
+.userData{
+  display: flex;
+}
+.userData__salesValue{
+  margin-left: 15px;
+  color: black;
 }
