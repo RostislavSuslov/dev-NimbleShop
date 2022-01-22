@@ -8,7 +8,7 @@ const ProductsList = ( ) => {
     return (
         <div className="container">
             <div className={moduleCSS.productsList + ' row'}>
-                   {products.map(i => <ProductsListItem key={i.id} product={i}/>)}
+                {products.map(i => <ProductsListItem key={i.id} product={i}/>)}
             </div>
         </div>
     )

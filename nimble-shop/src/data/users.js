@@ -1,4 +1,4 @@
-const userA = {
+export const userA = {
     id: "userA",
     name: "Jon Due",
     coupons: [{
@@ -8,7 +8,7 @@ const userA = {
     }],
 };
 
-const userB = {
+export const userB = {
     id: "userB",
     name: "Mr. Smith",
     coupons: [{
@@ -24,7 +24,7 @@ const userB = {
     ],
 };
 
-const userC = {
+export const userC = {
     id: "userC",
     name: "Joe Bloggs",
 };

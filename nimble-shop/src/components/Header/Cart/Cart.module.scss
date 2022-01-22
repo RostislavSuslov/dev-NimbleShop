@@ -8,7 +8,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 2rem;
     cursor: pointer;
     color: #c8d0e7;
     transition: all 0.5s ease;
@@ -17,6 +16,9 @@
         .cartInfo{
             display: block;
         }
+    }
+    ol{
+        padding: 0;
     }
 }
 
@@ -33,7 +35,16 @@
     position: absolute;
     top: 100%;
     right: 0;
-    background-color: darkgrey;
+    background-color: #e4ebf5;
+    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    color: #000;
+    transition: all 0.5s ease;
+    margin: 0 48px;
+    border-radius: 7px;
+    padding: 15px 20px;
     li {
         display: flex;
         div{
