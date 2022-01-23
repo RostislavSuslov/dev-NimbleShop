@@ -1,11 +1,10 @@
-.productsList{
-
+.productsList {
     max-width: 1296px;
     margin-top: 36px;
-    background: #e4ebf5;
+    background: var(--gray-bg);
     border-radius: 2rem;
-    box-shadow: 0.8rem 0.8rem 1.4rem #cbced1, -0.2rem -0.2rem 1.8rem #ffffff;
-    padding: 4rem;
+    box-shadow: 0.8rem 0.8rem 1.4rem var(--gray-shadow), -0.2rem -0.2rem 1.8rem #ffffff;
+    padding: 2rem;
     margin: 24px auto 48px;
 }
 

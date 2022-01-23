@@ -3,7 +3,7 @@
 }
 .productThumb {
   border-radius: 10px;
-  box-shadow: inset 0.2rem 0.2rem 0.5rem #bdbdbd, inset -0.2rem -0.2rem 0.5rem #ffffff;
+  box-shadow: inset 0.2rem 0.2rem 0.5rem var(--gray-shadow), inset -0.2rem -0.2rem 0.5rem #ffffff;
   margin-bottom: 15px;
   display: flex;
   padding: 24px 36px;
@@ -14,10 +14,11 @@
 .productThumb__img {
   max-width: 200px;
   margin: auto;
-  //box-shadow: 0.3rem 0.3rem 0.6rem #bdbdbd, -0.2rem -0.2rem 0.5rem #ffffff;
+  //box-shadow: 0.3rem 0.3rem 0.6rem var(--gray-shadow), -0.2rem -0.2rem 0.5rem #ffffff;
 }
 
-.productThumb__title{
-  font-size: 36px;
+.productThumb__title {
+  font-size: 28px;
+  line-height: 1.2;
   font-family: 'DancingScript';
 }

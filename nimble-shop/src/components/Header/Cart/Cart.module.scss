@@ -4,12 +4,11 @@
     position: relative;
     width: 4rem;
     height: 4rem;
-    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--gray-shadow), -0.2rem -0.2rem 0.5rem #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    color: #c8d0e7;
     transition: all 0.5s ease;
     margin-left: auto;
     &:hover{
@@ -36,7 +35,7 @@
     top: 100%;
     right: 0;
     background-color: #e4ebf5;
-    box-shadow: 0.3rem 0.3rem 0.6rem #c8d0e7, -0.2rem -0.2rem 0.5rem #ffffff;
+    box-shadow: 0.3rem 0.3rem 0.6rem var(--gray-shadow), -0.2rem -0.2rem 0.5rem #ffffff;
     justify-content: center;
     align-items: center;
     cursor: pointer;

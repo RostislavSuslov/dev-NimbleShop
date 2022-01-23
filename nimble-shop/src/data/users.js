@@ -21,6 +21,11 @@ export const userB = {
             product_id: "5",
             discount: 15
         },
+        {
+            id: "coupon_4",
+            product_id: "1",
+            discount: 7
+        },
     ],
 };
 
