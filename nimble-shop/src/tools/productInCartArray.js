@@ -1,0 +1,1 @@
+export let productInCartArray = ['test']

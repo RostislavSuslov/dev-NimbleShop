@@ -2,8 +2,9 @@
     border-radius: 50%;
     cursor: pointer;
     position: relative;
-    width: 4rem;
-    height: 4rem;
+    width: 64px;
+    min-width: 64px;
+    height: 64px;
     box-shadow: 0.3rem 0.3rem 0.6rem var(--gray-shadow), -0.2rem -0.2rem 0.5rem #ffffff;
     display: flex;
     justify-content: center;
@@ -11,6 +12,7 @@
     cursor: pointer;
     transition: all 0.5s ease;
     margin-left: auto;
+
     &:hover{
         .cartInfo{
             display: block;
@@ -44,6 +46,7 @@
     margin: 0 48px;
     border-radius: 7px;
     padding: 15px 20px;
+    min-width:300px;
     li {
         display: flex;
         div{

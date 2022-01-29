@@ -2,7 +2,10 @@
     display: flex;
     align-items: center;
     text-decoration: none;
-    transition: .2s;
+    transition: 0.2s;
+    box-shadow: inset 0.2rem 0.2rem 0.5rem #c8d0e7, inset -0.2rem -0.2rem 0.5rem #ffffff;
+    padding: 30px 30px;
+    border-radius: 319px 108px 254px / 128px 112px 157px;
 
     p {
         transition: .3s;

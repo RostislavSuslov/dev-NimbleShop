@@ -37,8 +37,7 @@ const UsersBlock = () => {
                 </div>
                 <div className={moduleCSS.userCoupons}>
                     <div className={moduleCSS.userData}>
-                        {userB.hasOwnProperty("coupons") ? findProductsById.map(i => <UserProductsNames key={i.id}
-                                                                                                        product={i}/>) : 'У вас нет купонов'}
+                        {userB.hasOwnProperty("coupons") ? findProductsById.map(i => <UserProductsNames key={i.id} product={i}/>) : 'У вас нет купонов'}
                     </div>
                     <div className={moduleCSS.userData__salesValue}>
                         {userB.coupons.map(attr => <UserCouponsDiscount attr={attr}/>)}
