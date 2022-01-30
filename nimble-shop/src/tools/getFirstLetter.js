@@ -1,0 +1,1 @@
+export const getFirstLetter =(word)=> word.substr(0, 1).toUpperCase();

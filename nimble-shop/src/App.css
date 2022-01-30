@@ -1,3 +1,11 @@
+@font-face {
+  font-family: 'DancingScript';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(DancingScript.woff2) format('woff2');
+}
+
 .App {
   text-align: center;
 }
@@ -35,4 +43,9 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+::selection{
+  background-color: #61dafb;
+  color: #fff
 }
